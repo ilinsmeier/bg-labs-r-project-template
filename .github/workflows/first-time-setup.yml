@@ -35,7 +35,7 @@ jobs:
 
       # remove files not needed for user instance of template
       - name: Remove unneeded files
-        run: rm -f README.md demo.md testbed.md
+        run: rm -f README.md R-proj-template.Rproj
 
       # personalize readme for user
       - name: Init readme
